@@ -1,0 +1,124 @@
+*{
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;   
+    box-sizing: border-box;
+}
+body{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:#FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 70%;
+    border-radius: .8rem;
+
+}
+
+img{
+    border-radius: .8rem;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_yo{
+    width: 200px;
+    height: 190px;
+    margin-top: 20px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 30px;
+    margin-left: 23% */
+}
+.nombre{
+    margin-left:100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lista_principal{
+    padding-top: 3px;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    background-color: #DB8485;
+}
+
+.lista_pequeña{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    background-color:#76939B;
+    border-radius:10px;
+    box-shadow: 2px 3px 6px black; 
+}
+a{
+    color: white;
+}
+
+.descripcion{
+    font-size: 14px;
+    background-color: red;
+    height: 50px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px ;
+    background-color: #F1F2F3;
+    box-shadow: 2px 3px 5px black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+}
+    
+.segundo_yo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 450px;
+    height: 300px;
+}
+
+.parrafo_main{
+    text-align:justify;
+    /* background-color: #DB8485; */
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 390px;
+    width: 400px;
+    /* float: left; */
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px .8rem .8rem;
+    background-color: #DB8485;
+    height: 50px;
+}
