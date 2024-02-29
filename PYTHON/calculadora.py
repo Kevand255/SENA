@@ -1,34 +1,50 @@
-print()
-numero_1 = float(input("digite el primer numero: "))
-numero_2 = float(input("digite el segundo numero: ")) 
-suma = numero_1 + numero_2
-resta = numero_1 - numero_2
-producto = numero_1 * numero_2
-cociente = numero_1 / numero_2
-modulo = numero_1 % numero_2
+eleccion = 0
+
+# porcentaje = numero1*numero2/100 
 
 while True :
-    print("elija un numero entre el 1 al 5 para realizar una operacion")
-    print(" 1 para hacer la suma")
-    print(" 2 para hacer la resta")
-    print(" 3 para sacar el producto")
-    print(" 4 para sacar el cociente")
-    print(" 5 para sacar el modulo")
-    print(" 6 para salir")
-    eleccion = float(input(": "))
+    print()
+    print("""            dijite 1 para sacar procetanje
+            dijite 2 para saber que porcentaje es un numero de otro
+            dijite 3 para sacar aumento procentual
+            dijite 4 para sacar descuento porcentual
+            dijite 5 para salir
+        """)
+    eleccion = float(input())
+    print()
 
-    if eleccion == 1:
-        print(numero_1,"+",numero_2,"=",suma)
+
+
+    if eleccion == 1 :
+        numero1 = float(input("cantidad: "))
+        numero2 = float(input("porcentaje: ")) 
+        print("el",numero2,"% de " ,numero1, "es:  ",numero1*numero2/100 )
+
+
     elif eleccion == 2:
-        print(numero_1, "-",numero_2, "=",resta)
-    elif eleccion == 3 :
-        print(numero_1,"*",numero_2,"=",producto)
-    elif eleccion == 4 :
-        print(numero_1,"/",numero_2,"=",cociente)
-    elif eleccion == 5 : 
-        print(numero_1,"%",numero_2,"=",modulo)
-    elif eleccion == 6 :
+        numero1 = float(input("primer numero: "))
+        numero2 = float(input("segundo numero : "))
+        resultado= (numero1/numero2)*100
+        print(numero1, " es el", resultado,"% de ", numero2) 
+
+
+    elif eleccion == 3:
+        cantidad = float(input("cantidad sobre la que se hara el aumento procentual: "))
+        numero2 = float(input("porcentaje calculado sobre la cantidad: ")) 
+        print("su resultado es: ",cantidad+cantidad*numero2/100)
+
+    elif eleccion == 4:
+        cantidad = float(input("cantidad sobre la que se hara el descuento procentual: "))
+        numero2 = float(input("porcentaje calculado sobre la cantidad: ")) 
+        print("su resultado es: ",cantidad-cantidad*numero2/100)
+    
+    elif eleccion == 5: 
         break
+
     else :
-        print("no es un valor valido")
+        print("numero invalido")
+
+        print()
+        print()
+
 

@@ -1,6 +1,6 @@
 print()
 print()
-lado = float(input("introduzca la medida de uno d elos lados del cubo: "))
+lado = float(input("introduzca la medida de uno de los lados del cubo: "))
 
 volumen = lado*lado*lado
 

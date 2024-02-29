@@ -23,3 +23,4 @@ while True :
     else : 
         print("el numero no es primo")
         break
+    
