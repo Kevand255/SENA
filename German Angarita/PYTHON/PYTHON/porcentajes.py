@@ -16,7 +16,7 @@ while True :
     if eleccion == 1 :
         numero1 = float(input("cantidad: "))
         numero2 = float(input("porcentaje: ")) 
-        print("el",numero2,"% de " ,numero1, "es:  ",numero1*numero2/100 )
+        print("el",numero2,"%  de " ,numero1, "es:  ",numero1*numero2/100 )
 
 
     elif eleccion == 2:

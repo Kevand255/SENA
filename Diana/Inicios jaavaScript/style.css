@@ -1,0 +1,14 @@
+/* #salidadenumero{
+    width: 100px;
+    background-color: blanchedalmond;
+    padding:35px;
+    margin-right: 44%;
+    margin-left: 40%; 
+} */
+
+#salidaTexto{
+    width: 200px;
+    height: 500px;
+    background-color: red;
+    color: white;
+}

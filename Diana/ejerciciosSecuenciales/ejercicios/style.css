@@ -1,0 +1,36 @@
+*{
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;   
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(104, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#exitsBox{
+    
+    padding-top:20px;
+    padding-left: 10px;
+    margin-top: 14%;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(250, 233, 211);
+    border-radius: .8rem;
+    box-shadow: 8px 8px 20px black; 
+
+}
+.boxNota{
+
+    background-color: brown ;
+}
+
+
+
+simule los puestos de un bus (25) todos deben de ir sentdaos y habran 5 paradas y en cada paradero se pueden bajar y subir pasajeros dependiendo de la disponibilidad de los pasajeros 
