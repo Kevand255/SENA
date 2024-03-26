@@ -135,7 +135,6 @@ footer{
 }
 
 .formulario {
-    /* Estilos para el formulario */
     margin-top: 20px;
     padding: 20px;
     background-color: #F1F1F1;
@@ -143,12 +142,10 @@ footer{
 }
 
 .formulario label {
-    /* Estilos para las etiquetas del formulario */
     font-weight: bold;
 }
 
 .formulario input[type="text"] {
-    /* Estilos para los campos de entrada de texto */
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
