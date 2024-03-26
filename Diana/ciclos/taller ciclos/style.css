@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+}
+
+.box1 {
+    width: 350px;
+    height: 500px; 
+    background-color: #ccc; 
+    margin: 0 10px; 
+}
+.box2 {
+    width: 350px;
+    height: 500px; 
+    background-color: #ccc;
+    margin: 0 10px; 
+}
+.box3 {
+    width: 350px;
+    height: 500px;
+    background-color: #ccc;
+    margin: 0 10px; 
+}

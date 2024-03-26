@@ -5,7 +5,7 @@
     font-family: sans-serif;
     text-decoration: none;
     text-align: none;
-    list-style: none;   
+    list-style: none;
     box-sizing: border-box;
 }
 body{
@@ -68,11 +68,12 @@ img{
     margin-left: 30px;
     margin-top: 10px;
     height: 30px;
-    width: 70px;
+    width: 100px;
     background-color:#76939B;
     border-radius:10px;
     box-shadow: 2px 3px 6px black; 
 }
+
 a{
     color: white;
 }
@@ -94,7 +95,6 @@ a{
 main{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-
 }
     
 .segundo_yo{
@@ -132,4 +132,27 @@ footer{
     border-radius: 0px 0px .8rem .8rem;
     background-color: #DB8485;
     height: 50px;
+}
+
+.formulario {
+    /* Estilos para el formulario */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.formulario label {
+    /* Estilos para las etiquetas del formulario */
+    font-weight: bold;
+}
+
+.formulario input[type="text"] {
+    /* Estilos para los campos de entrada de texto */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

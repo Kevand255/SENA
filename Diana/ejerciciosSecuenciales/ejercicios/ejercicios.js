@@ -1,6 +1,8 @@
 let confirmacion = confirm("Desea iniciar?");
 let salida = document.querySelector("#exitsBox")
-do {
+
+while(confirmacion===true){
+
     let desicion = parseInt(prompt("ingrese el numero del ejercicio que quiere que se ejecute(del 1 al 28)"));
     if ( desicion > 28 || desicion < 1 | isNaN(desicion)){
         console.log('ingrese un valor valido');
@@ -223,7 +225,6 @@ do {
         salida.innerHTML = `el rendimiento del cdt es: ${rendimiento}`;
         console.log(`el rendimiento del cdt es: ${rendimiento}`);
         
-        
+        break
     }
-    confirmacion = confirm("Desea ejecutar otro ejecicio?");
-} while (confirmacion === true);
+}
