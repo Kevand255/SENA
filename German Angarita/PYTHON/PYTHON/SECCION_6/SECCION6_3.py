@@ -2,4 +2,4 @@
 
 n=10
 for i in range (1, 51):
-    print( n ," * ", i, " = ", i*n)
+    print( n ," * ", i , " = ", i * n)

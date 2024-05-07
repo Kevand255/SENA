@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+Header{
+    background-image:url(./IMG/angel-jimenez.jpg) ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.tituloMusic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 150px;
+    color: white;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primerDiv{
+    /* background-color: blueviolet; */
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+}
+
+
+.divletras{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    width: 520px;
+
+}
+
+
+.titulos{
+    /* background-color: red  ; */
+    display: flex;
+    align-items: center ;
+    line-height: 80px;
+    width: 500px;
+    font-size: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 670;
+}
+
+.degradadoTitulo{
+    line-height: 50px;
+    width: 500px;
+    font-size: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 670;
+    background: linear-gradient(to right, #cc10d3, #e2df38, #db3ae0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    line-height: 30px;
+    font-family:  "Open Sans", sans-serif ;
+    font-size: 20px;
+
+}
+
+.boton{
+    margin-top: 20px;
+    background-color: #eb4a4a;
+    color: #ffffff;
+    border-radius: 10rem    ;
+    padding: 20px 30px; 
+    border: none; 
+    cursor: pointer;
+    font-size: 16px; 
+    width:  200px;
+
+}
+    .imagenPrimerDiv{
+        height: 580px;
+    }
+
+.segundoDiv{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+}
+
+.divLetrasDos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    width: 520px;   
+}
+
+
+
+.imagenSegundoDiv{
+    height: 580px;
+}
+
+
+
+.titulosDos{
+    /* background-color: red  ; */
+    display: flex;
+    line-height: 100px;
+    width: 500px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 670;
+}
+
+.degradadoTituloDos{
+    line-height: 50px;
+    width: 500px;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 670;
+    background: linear-gradient(to right, #cc10d3, #e2df38, #db3ae0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+.ultimoDiv{
+    background-image:url(./IMG/john-raptis.png) ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+}
+
+.interiorUltimo{
+    width: 500px;
+    color: white;
+}
+
+
+footer{
+    background-color: #eb4a4a;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primerSectionFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    color: white;
+    width: 70%;
+    height: 350px;
+}
+
+.primerDivFooter{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    ul{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.segundoSectionFooter{
+    display: flex;
+    color: white;
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px    ;
+}

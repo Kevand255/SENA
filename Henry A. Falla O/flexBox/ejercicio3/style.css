@@ -1,0 +1,31 @@
+*{
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.containerPrincipal{
+    height: 100vh;
+    background-color:#F2F2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    background-color: #EAE7E2;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    height: 180px;
+}
+
+p{
+    opacity: .9;
+}

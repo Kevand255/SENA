@@ -1,0 +1,39 @@
+*{
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.containerLista{
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+li{
+    height: 50px;
+    background-color: #DCDDDC;
+    width: 380px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+a{
+    width: 80px;
+    height: 20px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
