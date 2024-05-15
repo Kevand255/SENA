@@ -1,0 +1,392 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F4F5;
+}
+
+.titulosHeader{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+
+.titulosHeader h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 4.2vw;
+    font-weight: bold;
+}
+
+.titulosHeader p{
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+
+nav{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24282B;
+    height: 15vh;
+    border-bottom: solid 5px #1293D4;
+}
+nav h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+nav h2 span{
+    color:#1293D4;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    a{
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.1vw;
+    }
+    a:hover{
+        cursor: pointer;
+        color: #1293D4;
+    }
+}
+
+.suscribete{
+    height: 15vh;
+    background-color: #24282B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    h3{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.8vw;
+    }
+}
+
+.formularioSuscribete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.formularioSuscribete input[type=email]{
+    background-color: #fff;
+    width: 250px;
+    height: 36px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.formularioSuscribete input[type=button]{
+    background-color: #F24822;
+    color: #fff;
+    font-size: 1.1vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+.formularioSuscribete input[type=button]:hover{
+    transition: 0.4s;
+    background-color: #fa2e00;
+    cursor: pointer;
+}
+
+.formularioDeContacto{
+    margin: 45px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 80px;
+}
+
+
+.formularioDeContacto article{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h4{
+        font-family: sans-serif;
+        font-size: 1.5vw;
+    }
+}
+
+.contactanos{
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+} 
+
+.contactanos input[type=button]{
+    background-color:#F24822;
+    border: none;
+    color: #fff;
+    font-size: 1.1vw;
+    padding: 10px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 1.1vw;
+}
+.campoFormulario{
+    width: 100%;
+    height: 40px;
+}
+.mensajeUsuario{
+    width: 100%;
+    resize: both;
+}
+
+.formularioDeContacto aside{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formularioDeContacto aside section{
+    background-color: #34424B;
+    padding: 30px 20px;
+    h4{
+        font-family: sans-serif;
+        font-size: 1.4vw;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #fff;
+    }
+}
+
+.formularioDeContacto aside figure{
+    width: 100%;
+    height: 100%;
+    img{
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* servicios */
+
+.servicios{
+    margin: 20px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 80px;
+    
+}
+
+.servicios article{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.informacionServicio{
+    background-color: #D9D9D9;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: #b4b4b4 solid 1px;
+    h4{
+        font-family: sans-serif;
+        font-size: 1.3vw;
+    }
+    p{
+        font-family: sans-serif;
+        font-size: 1.05vw;
+    }
+    span{
+        font-family: sans-serif;
+        font-size: 1.05vw;
+    }
+}
+
+.servicios aside{
+    width: 30%;
+}
+
+.servicios aside section{
+    background-color: #34424B;
+    padding: 30px 20px;
+    h4{
+        font-family: sans-serif;
+        font-size: 1.4vw;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #fff;
+    }
+}
+
+
+/* nosotros */
+.nosotros{
+    margin: 20px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 80px;
+}
+
+.nosotros article{
+    width: 60%;
+}
+
+.nosotros article h4{
+    font-family: sans-serif;
+    font-size: 1.4vw;
+}
+
+.info{
+    margin: 20px 0;
+}
+
+.info p{
+    font-family: sans-serif;
+}
+
+.texto_marcado{
+    background-color: #34424B;
+    padding: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+figure{
+    width: 100%;
+    img{
+        width: inherit;
+        height: inherit;
+    }
+}
+
+aside{
+    width: 30%;
+}
+
+aside section{
+    background-color: #34424B;
+    padding: 30px 20px;
+}
+
+aside section h4{
+    font-family: sans-serif;
+    font-size: 1.4vw;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside section p{
+    color: #fff;
+}
+
+.mainIndex{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.boxInfo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxInfo h4{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.boxInfo p{
+    text-align: center;
+}
+
+
+figure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img{
+    width: 30%;
+    height: 30%;
+    }
+
+
+footer{
+    background-color:#1293D4;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+}
+footer p{
+    color: #fff;
+    font-family: sans-serif;
+    margin: 20px;
+}
